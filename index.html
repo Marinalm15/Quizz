@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz Programação</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="main-title">Quizz de Programção</h1>
+    <div id="score-container">
+        <h2>Parabéns!</h2>
+        <p id="display-score"><span>90</span>%</p>
+        <p>Você acertou <span id="correct-answer">0</span> de <span id="questions-qty">10</span> perguntas</p>
+        <button id="restart">Refazer Quizz</button>
+    </div>
+    <div>
+        <p id="question"><span id="question-number">1</span>-<span id="question-text">Qual é a unidade de medida para metros?</span></p>
+        <div id="answers-box">
+            <button class="correct-answer"><span class="btn-letter">a</span><span id="question-answer">metros</span></button>
+            <button class="wrong-answer"><span class="btn-letter">b</span><span id="question-answer">Km</span></button>
+            <button class="wrong-answer"><span class="btn-letter">c</span><span id="question-answer">centímetros</span></button>
+            <button class="wrong-answer"><span class="btn-letter">d</span><span id="question-answer">milímetros</span></button>
+        </div>
+    </div>
+    <button class="answer-template hide"><span class="btn-letter">a</span><span class="question-answer"></span></button>
+</body>
+</html>

@@ -175,7 +175,7 @@ function showSuccessMessage() {
 
   scoreDisplay.textContent = score.toString();
 
-  const correctAnswers = document.querySelector("#correct-answers");
+  const correctAnswers = document.querySelector("#correct-answer");
   correctAnswers.textContent = points;
 
   const totalQuestions = document.querySelector("#questions-qty");
